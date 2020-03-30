@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.Core" Version="7.2.0.1422" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProgressBar.BusinessObjects\ProgressBar.BusinessObjects.csproj" />
+    <ProjectReference Include="..\ProgressBar.Contracts\ProgressBar.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
